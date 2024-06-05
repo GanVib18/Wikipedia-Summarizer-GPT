@@ -14,7 +14,7 @@ The Wikipedia Summary helper app is designed to offer users two distinct types o
 
 At the heart of the application is the **Google Flan-T5 XXL model** was the transformer model selected for this analysis. It was sourced from Hugging Face's model repository. Flan-T5 is renowned for its superior performance in generating coherent and contextually relevant text. The XXL variant, being one of the largest in the Flan-T5 series, was selected as it ensures high-quality summary generation due to its extensive training on diverse datasets.
 
-![alt text]([http://url/to/img.png](https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/transformers/model_doc/flan2_architecture.jpg))
+![image](https://github.com/GanVib18/Wikipedia-Summarizer-GPT/assets/89754504/2325c6dc-d3f2-4e65-aeb2-f60902b55998)
 
 Model Page: https://huggingface.co/google/flan-t5-xxl
 
