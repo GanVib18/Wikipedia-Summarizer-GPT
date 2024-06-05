@@ -18,23 +18,15 @@ At the heart of the application is the **Google Flan-T5 XXL model** was the tran
 
 Model Page: https://huggingface.co/google/flan-t5-xxl
 
-### Natural Language Processing Techniques
+**Summarization**: The Flan-T5 model is fine-tuned to generate both concise and detailed summaries. The model's architecture allows it to understand the context and produce summaries that retain the core information while varying in length and detail based on user requirements.
 
-To optimize the performance of the summary generator, various **Natural Language Processing (NLP) techniques** were employed:
-
-1. **Text Preprocessing**: The input text from Wikipedia articles undergoes meticulous preprocessing, including tokenization, stopword removal, and lemmatization. This step ensures that the text is clean and ready for efficient processing by the model.
-
-2. **Summarization**: The Flan-T5 model is fine-tuned to generate both concise and detailed summaries. The model's architecture allows it to understand the context and produce summaries that retain the core information while varying in length and detail based on user requirements.
-
-3. **API Integration**: The application integrates with multiple APIs to fetch real-time data and enhance the summarization process. For instance, Wikipedia's API is used to retrieve article content dynamically, ensuring that users always get the most up-to-date information.
+**API Integration**: The application integrates with multiple APIs to fetch real-time data and enhance the summarization process. For instance, Wikipedia's API is used to retrieve article content dynamically, ensuring that users always get the most up-to-date information.
 
 ### User Interface and Experience
 
 The application's user interface, developed with Streamlit, is designed to be intuitive and user-friendly. Users can input the topic of interest, and the application fetches the corresponding Wikipedia article. With a simple click, they can generate both short and detailed summaries, displayed clearly on the interface. This streamlined process ensures that even users with minimal technical knowledge can benefit from the app's advanced capabilities.
 
-### Impact and Future Enhancements
-
-The Wikipedia Summary helper app exemplifies the integration of cutting-edge machine learning models with practical application development. It addresses the crucial need for efficient information synthesis in today's data-driven world. The application not only demonstrates technical proficiency in deploying advanced NLP models but also showcases the ability to create user-centric solutions.
+### Future Enhancements
 
 Future enhancements could include expanding the range of supported languages, incorporating user feedback mechanisms to continually improve summary quality, and integrating with other knowledge bases beyond Wikipedia to broaden the scope of information accessible through the app.
 
