@@ -1,4 +1,4 @@
-# Wikipedia Summarizer GPT App
+# Wikipedia Summarizer GPT App 🦜️🔗🎥
 
 In the rapidly evolving landscape of information technology, the ability to access and synthesize information quickly and effectively is paramount. To address this need, I developed a sophisticated Wikipedia Summary helper application. This project, built using Python and hosted via Streamlit, leverages advanced natural language processing (NLP) techniques and state-of-the-art machine learning models to provide users with concise and detailed summaries of Wikipedia articles.
 
